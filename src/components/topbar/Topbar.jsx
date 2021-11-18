@@ -4,9 +4,9 @@ import logo from "../images/At1.jpg";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
-const Topbar = () => {
+const Topbar = ({ menuOpen, setMenuOpen }) => {
   return (
-    <div className="topbar active">
+    <div className={menuOpen ? "topbar active" : "topbar"}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
@@ -22,7 +22,7 @@ const Topbar = () => {
           </div>
         </div>
         <div className="right">
-          <div className="hamburger">
+          <div onClick={() => setMenuOpen(!menuOpen)} className="hamburger">
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>

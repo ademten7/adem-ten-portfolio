@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+// import Container from "./Context/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
@@ -7,11 +8,15 @@ import Works from "./components/works/Works";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
+import Menu from "./components/menu/Menu";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
+    // <Container>
     <div className="app">
-      <Topbar />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />
@@ -20,6 +25,7 @@ function App() {
         <Contact />
       </div>
     </div>
+    // </Container>
   );
 }
 
