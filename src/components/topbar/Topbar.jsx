@@ -4,6 +4,7 @@ import "./topbar.scss";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 import { MyContext } from "../../Context/context";
+import { GrLinkedin } from "react-icons/gr";
 
 const Topbar = () => {
   const { menuOpen, setMenuOpen } = useContext(MyContext);
@@ -21,6 +22,11 @@ const Topbar = () => {
           <div className="itemContainer">
             <IoMdMail className="icon" />
             <span>tenadem82@gmail.com</span>
+          </div>
+          <div className="itemContainer linkedin">
+            <a href="https://www.linkedin.com/">
+              <GrLinkedin />
+            </a>
           </div>
         </div>
         <div className="right">

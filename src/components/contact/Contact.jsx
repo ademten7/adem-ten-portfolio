@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { ImLocation2 } from "react-icons/im";
 
-import { GrMail } from "react-icons/gr";
+import { GrLinkedin, GrMail } from "react-icons/gr";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import "./contact.scss";
 import EmailJS from "emailjs-com";
@@ -112,6 +112,11 @@ const Contact = () => {
               <BsFillTelephoneFill />
               +49 777 7777
             </p>
+            <div>
+              <a href="https://www.linkedin.com/">
+                <GrLinkedin />
+              </a>
+            </div>
           </div>
         </div>
       )}

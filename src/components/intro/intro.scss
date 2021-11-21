@@ -97,9 +97,15 @@
             position: absolute;
             bottom: 20px;
             left: 50%;
+            @include Tablet {
+                left: 88%;
+            }
             img {
                 width: 30px;
                 animation: arrowBlink 2s infinite;
+                @include Tablet {
+                    width: 20px;
+                }
             }
             @keyframes arrowBlink {
                 100% {

@@ -27,15 +27,19 @@
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
+                a {
+                    color: $mainColor;
+                    font-size: 25px;
+                }
                 @include mobile {
                     display: none;
                 }
                 .icon {
-                    font-size: 18px;
+                    font-size: 20px;
                     margin-right: 5px;
                 }
                 span {
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 600;
                 }
             }
@@ -61,6 +65,13 @@
     &.active {
         background-color: $mainColor;
         color: white;
+        .linkedin {
+            background-color: white;
+            display: grid;
+            place-items: center;
+            margin: 1px;
+            padding: 0 5px;
+        }
         .hamburger {
             span {
                 &:first-child {
