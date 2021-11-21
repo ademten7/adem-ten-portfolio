@@ -3,15 +3,12 @@
     .sections {
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: tomato;
+        background-color: lightsalmon;
         position: relative;
         top: 70px;
-        //to scroll smooth when click on the links
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
-        //to hide scroll bar
         scrollbar-width: none; //for firefox
-        //to hide the scroll bar for other browsers
         &::-webkit-scrollbar {
             display: none;
         }

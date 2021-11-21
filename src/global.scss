@@ -1,1 +1,14 @@
 $mainColor: #06789b;
+$widthMobile: 768px;
+$widthTablet: 1460px;
+@mixin mobile {
+    @media (max-width: #{$widthMobile}) {
+        @content;
+    }
+}
+
+@mixin Tablet {
+    @media (max-width: #{$widthTablet}) {
+        @content;
+    }
+}

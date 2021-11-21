@@ -10,7 +10,11 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed: 60,
       typeSpeed: 100,
-      strings: ["Developer", "Designer", "Content Creator"],
+      strings: [
+        "Full Stack Developer",
+        "Web Designer",
+        "Test Automation Engineer",
+      ],
     });
     // import { init } from "ityped";
   }, []);

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./topbar.scss";
-import logo from "../images/At1.jpg";
+// import logo from "../images/At1.jpg";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
+import { MyContext } from "../../Context/context";
 
-const Topbar = ({ menuOpen, setMenuOpen }) => {
+const Topbar = () => {
+  const { menuOpen, setMenuOpen } = useContext(MyContext);
   return (
     <div className={menuOpen ? "topbar active" : "topbar"}>
       <div className="wrapper">
