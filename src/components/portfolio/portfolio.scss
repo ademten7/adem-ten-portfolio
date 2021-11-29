@@ -6,6 +6,9 @@
     align-items: center;
     h1 {
         font-size: 50px;
+        color: $mainColor;
+        font-weight: bolder;
+        margin-top: 2em;
         @include mobile {
             font-size: 20px;
         }

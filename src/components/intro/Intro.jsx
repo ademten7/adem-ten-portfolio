@@ -1,9 +1,17 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./intro.scss";
 import { init } from "ityped";
+import { FaLaptopCode } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
+import { Modal } from "react-bootstrap";
+import Contact from "../contact/Contact";
 
 const Intro = () => {
   const textRef = useRef();
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
@@ -32,6 +40,26 @@ const Intro = () => {
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
+          <button className="hire" onClick={handleShow}>
+            <FaLaptopCode />
+            HIRE ME
+          </button>
+          <Modal size="xl" show={show} onHide={handleClose}>
+            <Modal.Header closeButton>
+              {" "}
+              <Modal.Title id="example-modal-sizes-title-lg">
+                Contact Me
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <Contact />
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />

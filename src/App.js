@@ -10,6 +10,7 @@ import Contact from "./components/contact/Contact";
 import "./app.scss";
 import Menu from "./components/menu/Menu";
 import { MyContext } from "./Context/context";
+import Skills from "./components/skills/Skills";
 
 function App() {
   const { menuOpen, setMenuOpen } = useContext(MyContext);
@@ -21,6 +22,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Works />
+        <Skills />
         <Testimonials />
       </div>
     </div>

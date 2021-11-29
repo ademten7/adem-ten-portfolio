@@ -1,11 +1,11 @@
 .app {
-    height: 100vh;
+    height: 130vh;
     .sections {
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: lightsalmon;
+        background-color: white;
         position: relative;
-        top: 70px;
+        top: 90px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox

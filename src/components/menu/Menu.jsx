@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./menu.scss";
 import Button from "react-bootstrap/Button";
 import { Modal } from "react-bootstrap";
-import { GrContact } from "react-icons/gr";
+import { FaMailBulk } from "react-icons/fa";
 import Contact from "../contact/Contact";
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
@@ -26,9 +26,10 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
           <a href="#testimonials">Testimonials</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <Button variant="light" onClick={handleShow}>
-            <GrContact /> Contact Me
-          </Button>
+          <button className="contact-me" onClick={handleShow}>
+            <FaMailBulk />
+            Contact
+          </button>
           <Modal size="xl" show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               {" "}
