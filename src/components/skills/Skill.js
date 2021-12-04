@@ -8,7 +8,7 @@ export default function Skill(props) {
 
   useEffect(() => {
     let func = (e) => {
-      if ((window.pageYOffset > 0) & (window.pageYOffset < 3000)) {
+      if ((window.pageYOffset > 2100) & (window.pageYOffset < 2800)) {
         setScrolling("running");
       }
     };
