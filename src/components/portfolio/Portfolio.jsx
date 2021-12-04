@@ -60,6 +60,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
+      <div className="underline"></div>
       <ul>
         {list.map((item) => {
           return (

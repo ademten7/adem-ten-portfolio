@@ -76,3 +76,10 @@
         column-gap: 2rem;
     }
 }
+
+.underline-skills {
+    width: 5rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #cccfcf, $mainColor 48%, #cccfcf);
+}

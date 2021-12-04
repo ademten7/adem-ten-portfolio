@@ -1,15 +1,30 @@
 import React from "react";
 import Skill from "./Skill";
 import "./skills.scss";
+import html from "../images/html.png";
+import css from "../images/css.png";
+import js from "../images/js.png";
+
+import react from "../images/react2.png";
+import nodejs from "../images/nodejs.png";
+import redux from "../images/redux.png";
+import bootstrap from "../images/bootstrap.png";
+import sass from "../images/sass.jpg";
+
+import reactBootstrap from "../images/react-bootstrap2.jpg";
+import mui from "../images/mui.png";
+import github from "../images/GitHub.png";
+import java from "../images/java7.png";
+import figma from "../images/figma.png";
 
 export default function Skills(props) {
   return (
     <section className="section skills container" id="skills">
       <div className="section-title">
         <h1>Skills</h1>
-        <div className="underline"></div>
+        <div className="underline-skills"></div>
       </div>
-      <div className="section-center skills-center">
+      <div className="section-center-skills skills-center">
         <article>
           <h3>Front End</h3>
           <Skill lang="HTML/CSS" value="90%" />
@@ -24,9 +39,9 @@ export default function Skills(props) {
           <Skill lang="JAVA" value="70%" />
         </article>
       </div>
-      <div className="section-center">
+      <div className="section-center-skills">
         <h4>Additional Skills:</h4>
-        <div className="skillBoxContainer">
+        {/* <div className="skillBoxContainer">
           <p className="skillBox">ES6+</p>
           <p className="skillBox">Bootstrap</p>
           <p className="skillBox">React-Redux</p>
@@ -42,6 +57,22 @@ export default function Skills(props) {
           </p>
           <p className="skillBox">Prioritising the tasks</p>
           <p className="skillBox">Disciplined work respecting deadlines</p>
+        </div> */}
+        <div className="images-icons">
+          <img src={html} alt="html" width="150" />
+          <img src={css} alt="css" width="150" />
+          <img src={js} alt="js" width="150" />
+
+          <img src={react} alt="react" width="150" />
+          <img src={redux} alt="redux" width="150" />
+          <img src={nodejs} alt="nodejs" width="150" />
+          <img src={bootstrap} alt="bootstrap" width="150" />
+          <img src={sass} alt="sass" width="150" />
+          <img src={reactBootstrap} alt="reactBootstrap" width="150" />
+          <img src={mui} alt="mui" width="150" />
+          <img src={github} alt="github" width="150" />
+          <img src={java} alt="java" width="100" height="150" />
+          <img src={figma} alt="figma" width="150" />
         </div>
       </div>
     </section>

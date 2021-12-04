@@ -12,13 +12,13 @@ export default function Skill(props) {
         setScrolling("running");
       }
     };
-    if (History.location.pathname == "/") {
+    if (History.location.pathname === "/") {
       window.addEventListener("scroll", (e) => func(e));
     }
     return () => {
       window.removeEventListener("scroll", func);
     };
-  }, []);
+  });
 
   let getChangeWidth = (props) => keyframes`
     0% { width:0 }

@@ -1,8 +1,8 @@
 .app {
-    height: 130vh;
+    height: 100vh;
     .sections {
         width: 100%;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 90px);
         background-color: white;
         position: relative;
         top: 90px;
@@ -14,7 +14,7 @@
         }
         >* {
             width: 100vw;
-            height: calc(100vh - 70px);
+            height: calc(100vh - 90px);
             scroll-snap-align: start;
         }
     }

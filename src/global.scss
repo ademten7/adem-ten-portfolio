@@ -1,4 +1,4 @@
-$mainColor: #06789b;
+$mainColor: #0f8bb1;
 $widthMobile: 768px;
 $widthTablet: 1460px;
 @mixin mobile {
@@ -11,4 +11,18 @@ $widthTablet: 1460px;
     @media (max-width: #{$widthTablet}) {
         @content;
     }
+}
+
+@mixin bubblesGeneral($width, $position, $bottom, $display, $content) {
+    width: $width;
+    position: $position;
+    bottom: $bottom;
+    display: $display;
+    justify-content: $content;
+}
+
+//to set bubble margin and border
+@mixin bubbleMarginAndBorder($margin, $border) {
+    margin: $margin;
+    border: $border;
 }
