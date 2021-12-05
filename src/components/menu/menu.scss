@@ -16,28 +16,34 @@
         right: 0;
     }
     ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 0;
         padding: 0;
         list-style: none;
         font-size: 30px;
         font-weight: 300;
         color: white;
-        width: 60%;
+        width: 100%;
         li {
             margin-bottom: 25px;
+            transition: all 0.8s ease;
             a {
                 font-size: inherit;
                 color: inherit;
                 text-decoration: none;
             }
             &:hover {
-                font-weight: 500;
+                transform: scale(1.1) rotateX(360deg);
+                font-weight: 700;
             }
         }
     }
 }
 
-.contact-me {
+.links {
     display: flex;
     justify-content: flex-start;
     align-items: center;

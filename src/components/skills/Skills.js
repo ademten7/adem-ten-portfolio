@@ -9,38 +9,39 @@ import react from "../images/react2.png";
 import nodejs from "../images/nodejs.png";
 import redux from "../images/redux.png";
 import bootstrap from "../images/bootstrap.png";
-import sass from "../images/sass.jpg";
+import sass from "../images/sass.png";
 
-import reactBootstrap from "../images/react-bootstrap2.jpg";
 import mui from "../images/mui.png";
 import github from "../images/GitHub.png";
-import java from "../images/java7.png";
+import java from "../images/java.jpg";
 import figma from "../images/figma.png";
 
 export default function Skills(props) {
   return (
-    <section className="section skills container" id="skills">
-      <div className="section-title">
-        <h1>Skills</h1>
-        <div className="underline-skills"></div>
-      </div>
-      <div className="section-center-skills skills-center">
-        <article>
-          <h3>Front End</h3>
-          <Skill lang="HTML/CSS" value="90%" />
-          <Skill lang="Javascript" value="90%" />
-          <Skill lang="React" value="90%" />
-        </article>
-        <article>
-          <h3>Back End</h3>
-          <Skill lang="NodeJS" value="80%" />
-          <Skill lang="MongoDB" value="80%" />
-          <Skill lang="Mongoose" value="80%" />
-          <Skill lang="JAVA" value="70%" />
-        </article>
+    <section className="skills container" id="skills">
+      <div className="headline">
+        <div className="section-title">
+          <h1>Skills</h1>
+          <div className="underline-skills"></div>
+        </div>
+        <div className="section-center-skills skills-center">
+          <article>
+            <h3>Front End</h3>
+            <Skill lang="HTML/CSS" value="90%" />
+            <Skill lang="Javascript" value="90%" />
+            <Skill lang="React" value="90%" />
+          </article>
+          <article>
+            <h3>Back End</h3>
+            <Skill lang="NodeJS" value="80%" />
+            <Skill lang="MongoDB" value="80%" />
+            <Skill lang="Mongoose" value="80%" />
+            <Skill lang="JAVA" value="70%" />
+          </article>
+        </div>
       </div>
       <div className="section-center-skills">
-        <h4>Additional Skills:</h4>
+        {/* <h4>Additional Skills:</h4> */}
         {/* <div className="skillBoxContainer">
           <p className="skillBox">ES6+</p>
           <p className="skillBox">Bootstrap</p>
@@ -68,7 +69,7 @@ export default function Skills(props) {
           <img src={nodejs} alt="nodejs" width="150" />
           <img src={bootstrap} alt="bootstrap" width="150" />
           <img src={sass} alt="sass" width="150" />
-          <img src={reactBootstrap} alt="reactBootstrap" width="150" />
+
           <img src={mui} alt="mui" width="150" />
           <img src={github} alt="github" width="150" />
           <img src={java} alt="java" width="100" height="150" />

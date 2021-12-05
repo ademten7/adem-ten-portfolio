@@ -1,0 +1,132 @@
+@import "../../global.scss";
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    h1 {
+        font-size: 50px;
+        color: $mainColor;
+        font-weight: bolder;
+        height: 100px;
+        margin-bottom: 0;
+        @include Tablet {
+            font-size: 25px;
+            height: 50px;
+        }
+        @include mobile {
+            font-size: 20px;
+            height: 40px;
+        }
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    height: 100vh;
+}
+
+section .card {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    border: none;
+}
+
+section .card .box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    height: 90%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    border: 1px solid $mainColor;
+    border-radius: 10px;
+    box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 64%), -8px -8px 12px 0 rgb(255 255 255 / 30%);
+}
+
+section .card .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    a {
+        cursor: pointer;
+    }
+    a div h2 {
+        text-decoration: none !important;
+    }
+}
+
+section .card .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section .card:hover .box {
+    transform: rotateY(360deg);
+}
+
+section .card .box .contentBx {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    //   transform: rotateY(360deg);
+    opacity: 0;
+}
+
+section .card .box .contentBx:hover {
+    transform: rotatey(360deg);
+    opacity: 1;
+}
+
+section .card .box .contentBx div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    padding: 20px;
+    transform: translateZ(1000px);
+    background: rgba(202, 198, 198, 0.2);
+    backdrop-filter: blur(15px);
+    background-clip: padding-box;
+    box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 64%), -8px -8px 12px 0 rgb(255 255 255 / 30%);
+    overflow: hidden;
+    h2 {
+        color: rgb(26, 25, 25);
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: bolder;
+    }
+    p {
+        color: rgb(26, 25, 25);
+        font-size: 16px;
+        font-weight: bolder;
+        text-align: justify;
+    }
+}

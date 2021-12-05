@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import "./menu.scss";
 import Button from "react-bootstrap/Button";
 import { Modal } from "react-bootstrap";
-import { FaMailBulk } from "react-icons/fa";
+import { FaMailBulk, FaHome } from "react-icons/fa";
+import { BsPersonCircle } from "react-icons/bs";
+import { MdHomeRepairService } from "react-icons/md";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { GiStrong } from "react-icons/gi";
+
 import Contact from "../contact/Contact";
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
@@ -14,28 +19,42 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
     <div className={menuOpen ? "menu active" : "menu"}>
       <ul>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#intro">Home</a>
+          <a className="links" href="#intro">
+            <FaHome /> Home
+          </a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#about">About</a>
+          <a className="links" href="#about">
+            <BsPersonCircle /> About
+          </a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#services">Services</a>
+          <a className="links" href="#services">
+            <MdHomeRepairService /> Services
+          </a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
+          <a className="links" href="#projects">
+            <AiOutlineFundProjectionScreen />
+            Projects
+          </a>
+        </li>
+        {/* <li onClick={() => setMenuOpen(false)}>
           <a href="#portfolio">Portfolio</a>
-        </li>
+        </li> */}
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#skills">Skills</a>
+          <a className="links" href="#skills">
+            <GiStrong /> Skills
+          </a>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
+        {/* <li onClick={() => setMenuOpen(false)}>
           <a href="#works">Works</a>
-        </li>
-        <li onClick={() => setMenuOpen(false)}>
+        </li> */}
+        {/* <li onClick={() => setMenuOpen(false)}>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li onClick={() => setMenuOpen(false)}>
-          <button className="contact-me" onClick={handleShow}>
+          <button className="links" onClick={handleShow}>
             <FaMailBulk />
             Contact
           </button>
