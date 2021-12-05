@@ -36,7 +36,7 @@
                 text-decoration: none;
             }
             &:hover {
-                transform: scale(1.1) rotateX(360deg);
+                transform: scale(1.1) rotate3d(2, -1, -1, -0.2turn);
                 font-weight: 700;
             }
         }

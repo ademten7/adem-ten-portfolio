@@ -14,6 +14,7 @@ import Skills from "./components/skills/Skills";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
+import AdditionalSkills from "./components/additionalSkills/AdditionalSkills";
 
 function App() {
   const { menuOpen, setMenuOpen } = useContext(MyContext);
@@ -26,9 +27,9 @@ function App() {
         <About />
         <Services />
         <Projects />
-        {/* <Portfolio />
-        <Works /> */}
         <Skills />
+        <AdditionalSkills />
+
         {/* <Testimonials /> */}
       </div>
     </div>
