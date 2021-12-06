@@ -24,7 +24,7 @@ export default function Skills(props) {
           <h1>Skills</h1>
           <div className="underline-skills"></div>
         </div>
-        <div className="section-center-skills skills-center">
+        {/* <div className="section-center-skills skills-center">
           <article>
             <h3>Front End</h3>
             <Skill lang="HTML/CSS" value="90%" />
@@ -38,7 +38,7 @@ export default function Skills(props) {
             <Skill lang="Mongoose" value="80%" />
             <Skill lang="JAVA" value="70%" />
           </article>
-        </div>
+        </div> */}
       </div>
       <div className="section-center-skills">
         {/* <h4>Additional Skills:</h4> */}
@@ -60,20 +60,51 @@ export default function Skills(props) {
           <p className="skillBox">Disciplined work respecting deadlines</p>
         </div> */}
         <div className="images-icons">
-          <img src={html} alt="html" width="150" />
-          <img src={css} alt="css" width="150" />
-          <img src={js} alt="js" width="150" />
+          <div className="image-box">
+            <img src={html} alt="html" width="150" />
+          </div>
+          <div className="image-box">
+            <img src={css} alt="css" width="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={js} alt="js" width="150" />
+          </div>
+          <div className="image-box">
+            <img src={react} alt="react" width="150" />
+          </div>
+          <div className="image-box">
+            <img src={redux} alt="redux" width="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={nodejs} alt="nodejs" width="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={bootstrap} alt="bootstrap" width="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={sass} alt="sass" width="150" />
+          </div>
 
-          <img src={react} alt="react" width="150" />
-          <img src={redux} alt="redux" width="150" />
-          <img src={nodejs} alt="nodejs" width="150" />
-          <img src={bootstrap} alt="bootstrap" width="150" />
-          <img src={sass} alt="sass" width="150" />
-
-          <img src={mui} alt="mui" width="150" />
-          <img src={github} alt="github" width="150" />
-          <img src={java} alt="java" width="100" height="150" />
-          <img src={figma} alt="figma" width="150" />
+          <div className="image-box">
+            {" "}
+            <img src={mui} alt="mui" width="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={github} alt="github" width="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={java} alt="java" width="100" height="150" />
+          </div>
+          <div className="image-box">
+            {" "}
+            <img src={figma} alt="figma" width="150" />
+          </div>
         </div>
       </div>
     </section>

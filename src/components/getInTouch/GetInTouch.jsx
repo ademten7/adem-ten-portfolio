@@ -28,7 +28,7 @@ const GetInTouch = () => {
       </div>
       <div className="connect-banner" id="contact">
         <div className="section-title">
-          <h1>Let's Get In Touch</h1>
+          <h2>Let's Get In Touch</h2>
           <div className="underline"></div>
         </div>
         <p className="connect-text">

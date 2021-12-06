@@ -55,6 +55,9 @@ textarea {
 .names-emails {
     display: flex;
     margin-bottom: 2em;
+    @include mobile2 {
+        flex-direction: column;
+    }
 }
 
 .name,
@@ -64,6 +67,9 @@ textarea {
 
 .telephone-organisation {
     display: flex;
+    @include mobile2 {
+        flex-direction: column;
+    }
 }
 
 a {

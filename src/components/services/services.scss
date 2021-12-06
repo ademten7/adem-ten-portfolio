@@ -45,13 +45,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    flex-wrap: wrap;
+    overflow: hidden;
     @include Tablet {
         flex-direction: column;
-        height: 700px;
         margin-top: 2em;
+        height: 1200px;
     }
     .end {
+        margin: 2em;
         background-color: $mainColor;
         display: flex;
         flex-direction: column;
@@ -83,6 +85,7 @@
         h4 {
             margin-top: 0.75em;
             font-weight: bold;
+            overflow: hidden;
             @include mobile {
                 font-size: 20px;
             }
@@ -90,6 +93,7 @@
         p {
             text-align: justify;
             font-weight: 700;
+            overflow: hidden;
             @include Tablet {
                 font-size: 12px;
             }
@@ -100,6 +104,9 @@
             @include Tablet {
                 flex-direction: column;
             }
+        }
+        .testing {
+            color: white !important;
         }
     }
 }

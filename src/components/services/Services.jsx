@@ -2,6 +2,7 @@ import React from "react";
 import "./services.scss";
 
 import { FaLaptopCode, FaDatabase } from "react-icons/fa";
+import { GrTestDesktop } from "react-icons/gr";
 
 const Services = () => {
   return (
@@ -25,10 +26,22 @@ const Services = () => {
           <FaDatabase className="services-icons" />
           <h4>Back-end</h4>
           <p>
-            In addition to my front-end knowledge and to complement it, I also
-            improved my skills in node.js, mongodb and mongoose. I put it into
-            practice by doing full stack projects. I continue to improve my
-            progress on this issue. Dont forget to check out my projects!
+            To my front-end knowledge and to complement it, I also improved my
+            skills in node.js, mongodb and mongoose. I put it into practice by
+            doing full stack projects. I continue to improve my progress on this
+            issue. Dont forget to check out my projects!
+          </p>
+        </div>
+        <div className="backend end">
+          <GrTestDesktop className="services-icons testing" />
+          <h4>Q/A-Testing</h4>
+          <p>
+            In addition to my front-end and back-end knowledge, I attended 8
+            months Test Automation Engineer course and I learned JAVA OOP
+            language and some testing framework like Selenium Webdriver,
+            Cucumber,TestNG to test software applications. I also joined some
+            none-paid project and I am experience in Smoke, Regression and
+            Functional Testing.
           </p>
         </div>
       </div>

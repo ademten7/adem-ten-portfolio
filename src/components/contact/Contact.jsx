@@ -42,8 +42,10 @@ const Contact = () => {
       ) : (
         <div className="contact-page">
           <div className="contact-left">
-            <h3>Send me a message</h3>
-            <p>Send me message and I will respond ASAP:)</p>
+            <h3 style={{ fontWeight: "bolder" }}>Send me a message</h3>
+            <p style={{ fontWeight: "bold", textAlign: "center" }}>
+              Send me message and I will respond ASAP
+            </p>
             <form ref={formRef} onSubmit={sendEmail}>
               <div>
                 <div className="names-emails">
@@ -100,12 +102,12 @@ const Contact = () => {
             </form>
           </div>
           <div className="contact-right">
-            <h3>Contact Information</h3>
+            <h3 style={{ fontWeight: "bolder" }}>Contact Information</h3>
             <p>
               <ImLocation2 style={{ color: "white" }} /> Kibitzweg 4, 24565 Kiel
             </p>
             <p>
-              <GrMail /> contact.us@fakemail.com
+              <GrMail /> tenadem82@gmail.com
             </p>{" "}
             <p>
               {" "}
