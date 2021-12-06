@@ -38,8 +38,8 @@ const Services = () => {
           <p>
             In addition to my front-end and back-end knowledge, I attended 8
             months Test Automation Engineer course and I learned JAVA OOP
-            language and some testing framework like Selenium Webdriver,
-            Cucumber,TestNG to test software applications. I also joined some
+            language with some testing frameworks like Selenium Webdriver,
+            Cucumber, TestNG to test software applications. I also joined some
             none-paid project and I am experience in Smoke, Regression and
             Functional Testing.
           </p>
