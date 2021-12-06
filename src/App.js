@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
-import Testimonials from "./components/testimonials/Testimonials";
+
 // import Contact from "./components/contact/Contact";
 import "./app.scss";
 import Menu from "./components/menu/Menu";
@@ -15,6 +14,7 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
 import AdditionalSkills from "./components/additionalSkills/AdditionalSkills";
+import GetInTouch from "./components/getInTouch/GetInTouch";
 
 function App() {
   const { menuOpen, setMenuOpen } = useContext(MyContext);
@@ -29,6 +29,7 @@ function App() {
         <Projects />
         <Skills />
         <AdditionalSkills />
+        <GetInTouch />
 
         {/* <Testimonials /> */}
       </div>

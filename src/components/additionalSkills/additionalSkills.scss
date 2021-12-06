@@ -1,7 +1,8 @@
 @import "../../global.scss";
 .additional-skills {
+    margin-top: 12em;
     .header {
-        margin-bottom: 2em;
+        margin-bottom: 10em;
     }
     h1 {
         font-size: 50px;
@@ -44,4 +45,5 @@
 .skillBoxContainer {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10em;
 }

@@ -1,8 +1,15 @@
 $mainColor: #0f8bb1;
 $widthMobile: 768px;
+$widthMobile2: 580px;
 $widthTablet: 1460px;
 @mixin mobile {
     @media (max-width: #{$widthMobile}) {
+        @content;
+    }
+}
+
+@mixin mobile2 {
+    @media (max-width: #{$widthMobile2}) {
         @content;
     }
 }

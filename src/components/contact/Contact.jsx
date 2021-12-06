@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <div className="container contact">
-      <h1 className="header">Contact Us</h1>
+      <h1 className="header">Contact Me</h1>
       {status ? (
         <div>
           <h1>Thanks for your email!!!</h1>

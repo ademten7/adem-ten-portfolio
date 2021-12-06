@@ -1,10 +1,10 @@
 @import "../../global.scss";
 .body {
+    margin-top: 15em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     h1 {
         font-size: 50px;
         color: $mainColor;
@@ -20,6 +20,9 @@
             height: 40px;
         }
     }
+    .underline {
+        margin-bottom: 12em;
+    }
 }
 
 section {
@@ -28,7 +31,6 @@ section {
     align-items: center;
     flex-wrap: wrap;
     transform-style: preserve-3d;
-    height: 100vh;
 }
 
 section .card {
