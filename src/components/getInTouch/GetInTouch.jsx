@@ -45,9 +45,7 @@ const GetInTouch = () => {
           <Modal size="xl" show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               {" "}
-              <Modal.Title id="example-modal-sizes-title-lg">
-                Contact Me
-              </Modal.Title>
+              <Modal.Title id="example-modal-sizes-title-lg"></Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <Contact />

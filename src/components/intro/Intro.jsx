@@ -47,9 +47,7 @@ const Intro = () => {
           <Modal size="xl" show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               {" "}
-              <Modal.Title id="example-modal-sizes-title-lg">
-                Contact Me
-              </Modal.Title>
+              <Modal.Title id="example-modal-sizes-title-lg"></Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <Contact />
@@ -65,15 +63,6 @@ const Intro = () => {
           <img src="assets/down.png" alt="" />
         </a>
       </div>
-      {/* <div class="bubbles">
-        <img class="bubble1" src="assets/bubble.png" alt="" />
-        <img class="bubble2" src="assets/bubble.png" alt="" />
-        <img class="bubble3" src="assets/bubble.png" alt="" />
-        <img class="bubble4" src="assets/bubble.png" alt="" />
-        <img class="bubble5" src="assets/bubble.png" alt="" />
-        <img class="bubble6" src="assets/bubble.png" alt="" />
-        <img class="bubble7" src="assets/bubble.png" alt="" />
-      </div>*/}
     </div>
   );
 };

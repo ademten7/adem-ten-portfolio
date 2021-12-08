@@ -1,29 +1,29 @@
-.app {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none; //for firefox
-    scroll-snap-align: start;
-    &::-webkit-scrollbar {
-        display: none;
-    }
-    // .app {
-    //     height: 100vh;
-    //     .sections {
-    //         width: 100%;
-    //         height: calc(100vh - 90px);
-    //         background-color: white;
-    //         position: relative;
-    //         top: 90px;
-    //         scroll-behavior: smooth;
-    //         scroll-snap-type: y mandatory;
-    //         scrollbar-width: none; //for firefox
-    //         &::-webkit-scrollbar {
-    //             display: none;
-    //         }
-    //         >* {
-    //             width: 100vw;
-    //             height: calc(100vh - 90px);
-    //             scroll-snap-align: start;
-    //         }
-    //     }
-}
+// .app {
+//     scroll-behavior: smooth;
+//     scroll-snap-type: y mandatory;
+//     scrollbar-width: none; //for firefox
+//     scroll-snap-align: start;
+//     &::-webkit-scrollbar {
+//         display: none;
+//     }
+// .app {
+//     height: 100vh;
+//     .sections {
+//         width: 100%;
+//         height: calc(100vh - 90px);
+//         background-color: white;
+//         position: relative;
+//         top: 90px;
+//         scroll-behavior: smooth;
+//         scroll-snap-type: y mandatory;
+//         scrollbar-width: none; //for firefox
+//         &::-webkit-scrollbar {
+//             display: none;
+//         }
+//         >* {
+//             width: 100vw;
+//             height: calc(100vh - 90px);
+//             scroll-snap-align: start;
+//         }
+//     }
+// }
