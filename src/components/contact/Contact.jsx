@@ -34,7 +34,7 @@ const Contact = () => {
       <h1 className="header">Contact Me</h1>
       {status ? (
         <div>
-          <h1>Thanks for your email!!!</h1>
+          <h1 className="respond">Thanks for your email!!!</h1>
           <p className="header-para">
             I love questions and feedback and I'm always happy to help
           </p>

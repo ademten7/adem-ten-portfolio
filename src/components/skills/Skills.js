@@ -1,5 +1,5 @@
 import React from "react";
-import Skill from "./Skill";
+
 import "./skills.scss";
 import html from "../images/html.png";
 import css from "../images/css.png";
@@ -16,9 +16,24 @@ import github from "../images/GitHub.png";
 import java from "../images/java.jpg";
 import figma from "../images/figma.png";
 
+let images = [
+  html,
+  css,
+  js,
+  react,
+  nodejs,
+  redux,
+  bootstrap,
+  sass,
+  mui,
+  github,
+  java,
+  figma,
+];
+
 export default function Skills(props) {
   return (
-    <section className="skills container" id="skills">
+    <section className="skills" id="skills">
       <div className="headline">
         <div className="section-title">
           <h1>Skills</h1>
@@ -59,7 +74,7 @@ export default function Skills(props) {
           <p className="skillBox">Prioritising the tasks</p>
           <p className="skillBox">Disciplined work respecting deadlines</p>
         </div> */}
-        <div className="images-icons">
+        {/* <div className="images-icons">
           <div className="image-box">
             <img src={html} alt="html" width="150" />
           </div>
@@ -105,6 +120,17 @@ export default function Skills(props) {
             {" "}
             <img src={figma} alt="figma" width="150" />
           </div>
+        </div> */}
+
+        <div className="effects-body ">
+          {images?.map((image) => {
+            return (
+              <div class="effects">
+                <img src={image} alt="skill" /> <img src={image} alt="skill" />{" "}
+                <img src={image} alt="skill" /> <img src={image} alt="skill" />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

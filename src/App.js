@@ -14,7 +14,6 @@ import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
 import AdditionalSkills from "./components/additionalSkills/AdditionalSkills";
 import GetInTouch from "./components/getInTouch/GetInTouch";
-import DImage from "./components/DImage/DImage";
 
 function App() {
   const { menuOpen, setMenuOpen } = useContext(MyContext);
@@ -31,7 +30,7 @@ function App() {
         <AdditionalSkills />
         <GetInTouch />
 
-        <DImage />
+        {/* <DImage /> */}
       </div>
     </div>
   );

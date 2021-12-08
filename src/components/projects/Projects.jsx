@@ -12,7 +12,7 @@ import weather from "../images/weather.png";
 
 const Projects = () => {
   return (
-    <div className="body" id="projects">
+    <div className="my-projects" id="projects">
       <h1>Projects</h1>
       <div className="underline"></div>
       <section>
@@ -29,11 +29,7 @@ const Projects = () => {
               >
                 <div>
                   <h2>E-Commerce-App</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
-                  </p>
+                  <p>Technologies: React</p>
                 </div>
               </a>
             </div>
@@ -52,9 +48,7 @@ const Projects = () => {
                 <div>
                   <h2>NetFlix-Clone-Project</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: React</p>
                   </p>
                 </div>
               </a>
@@ -74,9 +68,7 @@ const Projects = () => {
                 <div>
                   <h2>Candy-Crush-Game</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: React</p>
                   </p>
                 </div>
               </a>
@@ -96,9 +88,7 @@ const Projects = () => {
                 <div>
                   <h2>Hotel-App</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: React</p>
                   </p>
                 </div>
               </a>
@@ -118,9 +108,7 @@ const Projects = () => {
                 <div>
                   <h2>Recipe-App</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: React</p>
                   </p>
                 </div>
               </a>
@@ -140,9 +128,7 @@ const Projects = () => {
                 <div>
                   <h2>Emoji App</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: React</p>
                   </p>
                 </div>
               </a>
@@ -162,9 +148,7 @@ const Projects = () => {
                 <div>
                   <h2>TODO App</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: React</p>
                   </p>
                 </div>
               </a>
@@ -184,9 +168,7 @@ const Projects = () => {
                 <div>
                   <h2>Weather App</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis ipsa maiores quaerat qui quibusdam veritatis
-                    impedit consequuntur quidem nulla illum!
+                    <p>Technologies: DOM</p>
                   </p>
                 </div>
               </a>
