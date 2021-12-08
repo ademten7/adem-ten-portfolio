@@ -14,6 +14,7 @@ import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
 import AdditionalSkills from "./components/additionalSkills/AdditionalSkills";
 import GetInTouch from "./components/getInTouch/GetInTouch";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const { menuOpen, setMenuOpen } = useContext(MyContext);
@@ -29,8 +30,7 @@ function App() {
         <Skills />
         <AdditionalSkills />
         <GetInTouch />
-
-        {/* <DImage /> */}
+        <Footer />
       </div>
     </div>
   );

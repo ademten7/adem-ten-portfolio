@@ -122,14 +122,14 @@
     height: 350px;
     background: rgba(0, 0, 0, 0);
     transform: rotate(-30deg) skew(25deg) scale(0.8);
-    transition: 0.5s;
+    transition: all 1s ease;
 }
 
 .effects img {
     position: absolute;
     top: 200px;
     width: 50%;
-    transition: 0.5s;
+    transition: all 1s ease;
 }
 
 .effects:hover img:nth-child(4) {
