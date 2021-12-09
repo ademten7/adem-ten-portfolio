@@ -52,7 +52,7 @@
         box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 64%), -8px -8px 12px 0 rgb(255 255 255 / 30%);
     }
     @include mobile {
-        font-size: 10px;
+        font-size: 12px;
         width: 90%;
     }
 }
@@ -74,18 +74,35 @@
     width: 30%;
 }
 
+.skill-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 80px;
+}
+
 .btn-box {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
     background-color: $mainColor;
     border: none;
     padding: 8px;
     border-radius: 8px;
-    width: 120px;
+    height: 50px;
+    overflow: hidden;
+    width: 200;
+    border: none;
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(42, 41, 41, 0.3) inset;
     transition: all 1s ease;
     a {
         color: white;
         font-weight: bolder;
+        @include mobile2 {
+            font-size: 10px;
+        }
     }
     &:hover {
         background-color: white;

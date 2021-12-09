@@ -1,5 +1,7 @@
 import React from "react";
 import aboutImg from "../images/about.png";
+import MyFile from "../images/box.pdf";
+// import Button from "react-bootstrap/Button";
 import "./about.scss";
 
 const About = () => {
@@ -28,10 +30,17 @@ const About = () => {
             solve them, has led me to become incredibly integrated into the
             field of web development. Do I love my job? Yes!
           </p>
-          <div className="btn-box">
-            <a href="#skills" className="btn">
-              my skills
-            </a>
+          <div className="skill-resume">
+            <div className="btn-box">
+              <a href="#skills" className="btn">
+                My Skills
+              </a>
+            </div>
+            <div className="btn-box">
+              <a href={MyFile} download="Resume Adem TEN" className="btn">
+                Download My Resume
+              </a>
+            </div>
           </div>
         </article>
       </div>
