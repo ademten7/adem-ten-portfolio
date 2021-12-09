@@ -2,7 +2,7 @@ import React from "react";
 import "./services.scss";
 
 import { FaLaptopCode, FaDatabase } from "react-icons/fa";
-import { GrTestDesktop } from "react-icons/gr";
+import { VscDebugConsole } from "react-icons/vsc";
 
 const Services = () => {
   return (
@@ -33,7 +33,7 @@ const Services = () => {
           </p>
         </div>
         <div className="backend end">
-          <GrTestDesktop className="services-icons testing" />
+          <VscDebugConsole className="services-icons testing" />
           <h4>Q/A-Testing</h4>
           <p>
             In addition to my front-end and back-end knowledge, I attended 8

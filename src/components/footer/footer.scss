@@ -1,0 +1,99 @@
+@import "../../global.scss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer {
+    display: grid;
+    height: 150px;
+    width: 100%;
+    background-color: $mainColor;
+    place-items: center;
+}
+
+.wrapper-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.wrapper-icons .button {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    overflow: hidden;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-icons .button:hover {
+    width: 200px;
+}
+
+.wrapper-icons .button:nth-child(1):hover .icon {
+    background-color: #0077b5;
+}
+
+.wrapper-icons .button:nth-child(2):hover .icon {
+    background-color: black;
+}
+
+.wrapper-icons .button:nth-child(3):hover .icon {
+    background-color: #c32aa3;
+}
+
+.wrapper-icons .button:hover .icon i {
+    color: white;
+}
+
+.wrapper-icons .button .icon {
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 60px;
+    overflow: hidden;
+    color: $mainColor;
+    transition: all 0.3s ease-out;
+    border: none;
+}
+
+.wrapper-icons .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-icons .button span {
+    position: absolute;
+    top: 2px;
+    left: 65px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bolder;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-icons .button:nth-child(1) span {
+    color: #0077b5;
+}
+
+.wrapper-icons .button:nth-child(2) span {
+    color: black;
+}
+
+.wrapper-icons .button:nth-child(3) span {
+    color: #c32aa3;
+}
