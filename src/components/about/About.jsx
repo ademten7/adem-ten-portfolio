@@ -1,6 +1,6 @@
 import React from "react";
 import aboutImg from "../images/about.png";
-import MyFile from "../images/box.pdf";
+// import { MyFile } from "../../../public/assets/box.pdf";
 // import Button from "react-bootstrap/Button";
 import "./about.scss";
 
@@ -37,7 +37,11 @@ const About = () => {
               </a>
             </div>
             <div className="btn-box">
-              <a href={MyFile} download="Resume Adem TEN" className="btn">
+              <a
+                href="assets/box.pdf"
+                download="Resume Adem TEN"
+                className="btn"
+              >
                 Download My Resume
               </a>
             </div>
