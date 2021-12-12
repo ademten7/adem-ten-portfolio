@@ -20,7 +20,7 @@ const Projects = () => {
                   <a style={{ textDecoration: "none" }} href={project.href}>
                     <div>
                       <h2>{project.header}</h2>
-                      <p>{project.Technologies}</p>
+                      <p>{project.technologies}</p>
                     </div>
                   </a>
                 </div>

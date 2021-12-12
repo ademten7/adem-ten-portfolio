@@ -8,6 +8,7 @@ import emoji from "../components/images/emoji.png";
 import todo from "../components/images/todo.png";
 import weather from "../components/images/weather.png";
 import project_bootstrap from "../components/images/project-bootstrap.png";
+import shrugman from "../components/images/shrugman.jpeg";
 
 const projects = [
   {
@@ -63,6 +64,12 @@ const projects = [
     href: "https://fbw-e04-2.github.io/uib-final-project-ademten7/",
     header: "Bootstrap Portfolio Page",
     technologies: "Technologies: Bootstrap and Sass",
+  },
+  {
+    src: shrugman,
+    href: "https://github.com/FbW-E04-2/pb-final-project-ademten7",
+    header: "Javascript Projects: Shrugman, Cashier and Pokemon",
+    technologies: "Technologies: Javascript",
   },
 ];
 export default projects;

@@ -56,6 +56,7 @@ const Contact = () => {
                       type="text"
                       placeholder="Type full name here"
                       required
+                      name="user_name"
                     />
                   </div>
                   <div className="email">
@@ -65,6 +66,7 @@ const Contact = () => {
                       type="email"
                       placeholder="Type email here"
                       required
+                      name="user_email"
                     />
                   </div>
                 </div>
@@ -72,7 +74,12 @@ const Contact = () => {
                   <div className="tel">
                     <label>Telephone</label>
                     <br />
-                    <input type="tel" placeholder="Phone number" required />
+                    <input
+                      type="tel"
+                      placeholder="Phone number"
+                      required
+                      name="user_phone"
+                    />
                   </div>
                   <div className="organisation">
                     <label>Organisation</label>
@@ -81,6 +88,7 @@ const Contact = () => {
                       type="text"
                       placeholder="Organisation name"
                       required
+                      name="organisation"
                     />
                   </div>
                 </div>
@@ -88,7 +96,7 @@ const Contact = () => {
                 <label className="message">Message</label>
                 <br />
                 <textarea
-                  name="textarea"
+                  name="message"
                   placeholder="Type your message here"
                   id="textarea"
                   cols="30"
