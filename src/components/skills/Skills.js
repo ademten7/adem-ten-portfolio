@@ -15,15 +15,19 @@ import mui from "../images/mui.png";
 import github from "../images/GitHub.png";
 import java from "../images/java.jpg";
 import figma from "../images/figma.png";
+import mongodb from "../images/mongodb.png";
+import reactBootstrap from "../images/reactboot.svg";
 
 let images = [
   html,
   css,
   js,
   react,
-  nodejs,
   redux,
+  reactBootstrap,
   bootstrap,
+  nodejs,
+  mongodb,
   sass,
   mui,
   github,
@@ -126,8 +130,9 @@ export default function Skills(props) {
           {images?.map((image) => {
             return (
               <div class="effects">
-                <img src={image} alt="skill" /> <img src={image} alt="skill" />{" "}
+                <img src={image} alt="skill" />
                 <img src={image} alt="skill" /> <img src={image} alt="skill" />
+                <img src={image} alt="skill" />
               </div>
             );
           })}
