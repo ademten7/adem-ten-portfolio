@@ -17,22 +17,37 @@ import java from "../images/java.jpg";
 import figma from "../images/figma.png";
 import mongodb from "../images/mongodb.png";
 import reactBootstrap from "../images/reactboot.svg";
+import expressJS from "../images/ExpressJS.png";
+import cucumber from "../images/cucumber.png";
+import selenium from "../images/selenium.png";
+import testNG from "../images/testNG.png";
+
+import jenkins from "../images/jenkins.png";
+import jest from "../images/jest.png";
+import jira from "../images/jira.png";
 
 let images = [
   html,
   css,
   js,
+  java,
   react,
   redux,
   reactBootstrap,
   bootstrap,
   nodejs,
   mongodb,
+  expressJS,
   sass,
   mui,
   github,
-  java,
   figma,
+  jest,
+  cucumber,
+  selenium,
+  testNG,
+  jenkins,
+  jira,
 ];
 
 export default function Skills(props) {

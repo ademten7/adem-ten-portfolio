@@ -123,7 +123,7 @@ const Contact = () => {
               +49 777 7777
             </p>
             <div>
-              <a href="https://www.linkedin.com/">
+              <a href="https://www.linkedin.com/in/ademten/">
                 <GrLinkedin />
               </a>
             </div>

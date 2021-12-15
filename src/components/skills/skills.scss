@@ -119,7 +119,7 @@
     align-items: center;
     justify-content: flex-start;
     width: 300px;
-    height: 350px;
+    height: 360px;
     background: rgba(0, 0, 0, 0);
     transform: rotate(-30deg) skew(25deg) scale(0.8);
     transition: all 1s ease;
@@ -127,27 +127,27 @@
 
 .effects img {
     position: absolute;
-    top: 200px;
+    top: 180px;
     width: 50%;
     transition: all 1s ease;
 }
 
 .effects:hover img:nth-child(4) {
-    transform: translate(160px, -160px);
+    transform: translate(150px, -150px);
     opacity: 1;
 }
 
 .effects:hover img:nth-child(3) {
-    transform: translate(120px, -120px);
+    transform: translate(110px, -110px);
     opacity: 0.8;
 }
 
 .effects:hover img:nth-child(2) {
-    transform: translate(80px, -80px);
+    transform: translate(70px, -70px);
     opacity: 0.6;
 }
 
 .effects:hover img:nth-child(1) {
-    transform: translate(40px, -40px);
+    transform: translate(30px, -30px);
     opacity: 0.4;
 }

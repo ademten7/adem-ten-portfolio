@@ -24,7 +24,7 @@ const Topbar = () => {
             <span>tenadem82@gmail.com</span>
           </div>
           <div className="itemContainer linkedin">
-            <a href="https://www.linkedin.com/">
+            <a href="https://www.linkedin.com/in/ademten/">
               <GrLinkedin />
             </a>
           </div>

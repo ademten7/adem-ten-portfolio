@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="Footer">
       <div className="wrapper-icons">
         <div className="button">
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/ademten/">
             <div className="icon">
               <i className="LinkedIn">
                 <GrLinkedin />
@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="button">
-          <a href="https://www.linkedin.com/">
+          <a href="www.linkedin.com/in/ademten">
             <div className="icon">
               <i className="Instagram">
                 <FaInstagramSquare />
