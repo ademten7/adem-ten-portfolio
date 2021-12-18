@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import { GrLinkedin } from "react-icons/gr";
-import { FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (

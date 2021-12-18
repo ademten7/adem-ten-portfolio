@@ -42,7 +42,7 @@ const About = () => {
                 download="Resume Adem TEN"
                 className="btn"
               >
-                Download My Resume
+                Download CV
               </a>
             </div>
           </div>
