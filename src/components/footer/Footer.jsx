@@ -28,7 +28,7 @@ const Footer = () => {
             <span>GitHub</span>
           </a>
         </div>
-        <div className="button">
+        {/* <div className="button">
           <a href="www.linkedin.com/in/ademten">
             <div className="icon">
               <i className="Instagram">
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <span>Instagram</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
