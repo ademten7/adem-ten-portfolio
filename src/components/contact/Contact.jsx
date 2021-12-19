@@ -120,7 +120,7 @@ const Contact = () => {
             <p>
               {" "}
               <BsFillTelephoneFill />
-              +49 777 7777
+              +49 179 460 02 68
             </p>
             <div>
               <a href="https://www.linkedin.com/in/ademten/">

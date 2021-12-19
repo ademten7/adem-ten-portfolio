@@ -38,7 +38,7 @@ const Intro = () => {
           <h2>Hi There, I'm</h2>
           <h1>Adem Ten</h1>
           <h3>
-            Freelance <span ref={textRef}></span>
+            <span ref={textRef}></span>
           </h3>
           <button className="hire" onClick={handleShow}>
             <FaLaptopCode />

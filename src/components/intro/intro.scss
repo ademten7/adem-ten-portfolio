@@ -72,6 +72,7 @@
                 }
             }
             h3 {
+                text-align: center;
                 font-size: 45px;
                 font-weight: bolder;
                 @include Tablet {
@@ -142,72 +143,4 @@
             }
         }
     }
-    // .bubbles {
-    //     @include bubblesGeneral(100%, absolute, 0, flex, space-around);
-    //     z-index: 1;
-    //     // width: $width;
-    //     // position: $position;
-    //     // bottom: $bottom;
-    //     // display: $display;
-    //     // justify-content: $content;
-    //     .bubble1 {
-    //         z-index: 1;
-    //         width: 45px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 1s linear infinite;
-    //     }
-    //     .bubble2 {
-    //         z-index: 1;
-    //         width: 120px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 5s linear infinite;
-    //     }
-    //     .bubble3 {
-    //         width: 55px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 3s linear infinite;
-    //     }
-    //     .bubble4 {
-    //         width: 70px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 1s linear infinite;
-    //     }
-    //     .bubble5 {
-    //         width: 50px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 6s linear infinite;
-    //     }
-    //     .bubble6 {
-    //         width: 100px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 2s linear infinite;
-    //     }
-    //     .bubble7 {
-    //         width: 45px;
-    //         @include bubbleMarginAndBorder(0, none);
-    //         animation: moving 7s 1s linear infinite;
-    //     }
-    //     @keyframes moving {
-    //         0% {
-    //             opacity: 0;
-    //             transform: translateY(0);
-    //         }
-    //         25% {
-    //             opacity: 1;
-    //             transform: translateY(-250px) scale(1.1);
-    //         }
-    //         50% {
-    //             opacity: 1;
-    //             transform: translateY(-500px) scale(1.4);
-    //         }
-    //         75% {
-    //             opacity: 0.5;
-    //             transform: translateY(-750px) scale(1.6);
-    //         }
-    //         100% {
-    //             opacity: 0;
-    //             transform: translateY(-900px) scale(2);
-    //         }
-    //     }
-    // }
 }
