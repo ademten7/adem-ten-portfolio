@@ -38,8 +38,8 @@ const About = () => {
             </div>
             <div className="btn-box">
               <a
-                href="assets/Adem_Ten_CV.pdf"
-                download="Resume Adem TEN"
+                href="assets/Adem_TEN_CV.pdf"
+                download="Adem_Ten_CV"
                 className="btn"
               >
                 Download CV
