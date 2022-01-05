@@ -9,6 +9,7 @@ import todo from "../components/images/todo.png";
 import weather from "../components/images/weather.png";
 import project_bootstrap from "../components/images/project-bootstrap.png";
 import shrugman from "../components/images/shrugman.jpeg";
+import useReducer from "../components/images/useReducer.png";
 
 const projects = [
   {
@@ -34,6 +35,12 @@ const projects = [
     href: "https://github.com/ademten7/react-hotel-project",
     header: "Hotel App",
     technologies: "Technologies: React",
+  },
+  {
+    src: useReducer,
+    href: "https://github.com/ademten7/e-commerce-useReducer-Hook",
+    header: "E-Shopping  ",
+    technologies: "Technologies: React useReducer Hook",
   },
   {
     src: recipe,
