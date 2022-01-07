@@ -2,7 +2,6 @@ import recipe from "../components/images/recipe.png";
 import commerce from "../components/images/e-commerce.png";
 import netflix from "../components/images/netflix.png";
 import candy from "../components/images/candy.png";
-
 import hotel from "../components/images/hotel.png";
 import emoji from "../components/images/emoji.png";
 import todo from "../components/images/todo.png";
