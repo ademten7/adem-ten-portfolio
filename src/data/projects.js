@@ -9,6 +9,7 @@ import weather from "../components/images/weather.png";
 import project_bootstrap from "../components/images/project-bootstrap.png";
 import shrugman from "../components/images/shrugman.jpeg";
 import useReducer from "../components/images/useReducer.png";
+import githubResume from "../components/images/githubresume.png";
 
 const projects = [
   {
@@ -36,8 +37,15 @@ const projects = [
     technologies: "Technologies: React",
   },
   {
+    src: githubResume,
+    href: "https://github-resume-project.herokuapp.com/",
+    header: "Github Resume Creator",
+    technologies: "Technologies: React Context API",
+  },
+
+  {
     src: useReducer,
-    href: "https://github.com/ademten7/e-commerce-useReducer-Hook",
+    href: "https://e-commrece-use-reducer-hook.vercel.app/",
     header: "E-Shopping  ",
     technologies: "Technologies: React useReducer Hook",
   },
