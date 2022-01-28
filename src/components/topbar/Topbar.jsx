@@ -17,7 +17,7 @@ const Topbar = () => {
           </a>
           <div className="itemContainer">
             <BsTelephoneForwardFill className="icon" />
-            <span>+49 179 460 02 68</span>
+            <span>+49 162 947 61 57</span>
           </div>
           <div className="itemContainer">
             <IoMdMail className="icon" />
