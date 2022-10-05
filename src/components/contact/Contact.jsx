@@ -112,7 +112,7 @@ const Contact = () => {
           <div className="contact-right">
             <h3 style={{ fontWeight: "bolder" }}>Contact Information</h3>
             <p>
-              <ImLocation2 style={{ color: "white" }} /> Kibitzweg 4, 24565 Kiel
+              <ImLocation2 style={{ color: "white" }} /> Kaiserslautern
             </p>
             <p>
               <GrMail /> tenadem82@gmail.com
