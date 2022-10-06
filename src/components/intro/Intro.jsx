@@ -21,7 +21,6 @@ const Intro = () => {
       strings: [
         "Full Stack Developer",
         "Web Designer",
-        "Test Automation Engineer",
       ],
     });
     // import { init } from "ityped";
